@@ -1,0 +1,21 @@
+body {
+	font-family: sans-serif;
+ 	background:  no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+}
+a {color:white;}
+a:hover { color:white;}
+#center_img{
+	float: left;
+	position: relative;
+	left: 50%;
+ }
+ #logo_img{
+ 	float: left;
+	position: relative;
+	left: -50%;
+    
+}
