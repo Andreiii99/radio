@@ -6,11 +6,11 @@
     <link rel="stylesheet" type="text/css" href="style.css" />
     <script type="text/javascript" src=""></script>
 <style>	
-body {background-image: url(); /* Путь к фоновому изображению */ }
+body {background-image: url(https://il2.picdn.net/shutterstock/videos/17321149/thumb/1.jpg); /* Путь к фоновому изображению */ }
 </style>
 </head>
 <div id="center_img">
-<img id="logo_img" height="63" src="" alt="Logo">
+<img id="logo_img" height="63" src="https://phandroid.s3.amazonaws.com/wp-content/uploads/2011/07/GoogleMusic.png" alt="Logo">
 </div>
 <br><br><br><br>
 <div id="vplayer0018c78b" style="width:796px;height:40px; margin: auto;">
