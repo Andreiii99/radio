@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Radio</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script type="text/javascript" src=""></script>
+<style>	
+body {background-image: url(); /* Путь к фоновому изображению */ }
+</style>
+</head>
+<div id="center_img">
+<img id="logo_img" height="63" src="" alt="Logo">
+</div>
+<br><br><br><br>
+<div id="vplayer0018c78b" style="width:796px;height:40px; margin: auto;">
+<a href="http://volnorez.com/letnij-dozhd" title="радио Летний Дождь">радио Летний Дождь</a>
+<script async type="text/javascript" src="//volnorez.com/plugins/jscode/player_js/0018c78b/%7B%22autoplay%22%3Atrue%2C%22share%22%3A%22source%22%2C%22skin%22%3A%22default%22%2C%22style%22%3A%7B%7D%7D"></script>
+</div>
+<br/>
+<div id="volnorez_chat" style="width:796px;height:498px; margin: auto;" data-code="0018c78b" data-skin-params="'bg_clr':'71,57,57','txt_clr':'255,218,207','b_clr':'54,46,46','icon_clr':'61,10,10','btnt_clr':'255,222,207','panel_clr':'81,68,68','msgbg_clr':'90,78,78','omsgbg_clr':'106,95,95','ib_clr':'121,111,111','label_clr':'223,191,181">
+<script async type="text/javascript" src="//volnorez.com/plugins/jscode/chat_js"></script>
+</div>
+ </body>
+</html>
