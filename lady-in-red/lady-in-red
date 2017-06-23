@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Radio</title>
+    <link rel="stylesheet" type="text/css" href="../styles.css" />
+    <script type="text/javascript" src=""></script>
+<style>	
+body {
+	background-image: url(https://volnorez.com/static/background/443041/5947b6cf.jpg); /* Путь к фоновому изображению */
+}
+</style>
+</head>
+<!-- lady-in-red
+Адрес приложения
+https://volnorez.com/lady-in-red -->
+<div id="center_img">
+<img id="logo_img" height="63" src="https://volnorez.com/static/logo180/443041/594c95d4.jpg" alt="Logo">
+</div>
+<br><br><br><br>
+<center>
+<div id="volnorez_live_player00111059" style="width:896px;height:40px;display:block;"><br />Слушать <a href="http://volnorez.com/lady-in-red" title="радио Lady in red">радио Lady in red</a><br /><script type="text/javascript">(volnorez_jscode = window.volnorez_jscode || (function(){var s=document.createElement("script");s.type="text/javascript";s.src="//volnorez.com/plugins/jscode/js/jscode.js";document.body.appendChild(s);return [];})())["001d5d11"]={shareBtn:"source",skinURL:"//volnorez.com/plugins/wcdesign/skins/liveplayer_skin_stripe.swf",skinParams:""};if (window.VolnorezJSCode) VolnorezJSCode.Load("001d5d11");</script><br /></div>
+<br />
+<div id="volnorez_chat" style="width:896px;height:498px;display:block;"><br />Слушать <a href="http://volnorez.com/lady-in-red" title="радио Lady in red">радио Lady in red</a><br /><script type="text/javascript">var jscode_chat_id="00111059";var cSkinURL_chat="//volnorez.com/plugins/wcdesign/skins/chat_skin_stripe.swf";var cSkinParams_chat="";</script><br /><script type="text/javascript" src="//volnorez.com/plugins/jscode/js/jscode_chat.js"></script><br /></div>
+</center>
+<!-- lady-in-red 
+Адрес приложения
+https://volnorez.com/lady-in-red -->
+</body>
+</html>
