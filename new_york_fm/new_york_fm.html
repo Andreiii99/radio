@@ -69,7 +69,7 @@ margin: 2px;
 <!-- Отзвучавшие треки -->
 <!-- Добавьте этот код в то место страницы, где вы хотите разместить виджет:  -->
 <div id="RTWidgetStatus"></div>
-<!-- Установите этот код сразу после div'а виджета из шага 1 либо ближе к концу страницы перед закрывающим тэгом <body>:  -->
+<!-- Установите этот код сразу после div'а виджета из шага 1 либо ближе к концу страницы перед закрывающим тэгом <body>: 
 <script>
 if (typeof jQuery == 'undefined') { 
   var i = "i";
@@ -82,11 +82,11 @@ if (typeof jQuery == 'undefined') {
 jQuery(document).ready(function(){new StatusWidget({"djImage":true,"djName":true,"listenersNum":false,"trackCurrent":true,"history":true,"widgetWidth":350}, 1, "http://adminnfm.s02.radio-tochka.com:8080", "#RTWidgetStatus", "ru");});
 </script>
 </div>
-<div class="right_block">
+<div class="right_block"> -->
 <!-- Заказ треков -->
-<!-- Добавьте этот код в то место страницы, где вы хотите разместить виджет:  -->
-<div id="RTWidgetTrackRequests"></div>
-<!-- Установите этот код сразу после div'а виджета из шага 1 либо ближе к концу страницы перед закрывающим тэгом <body>:  -->
+<!-- Добавьте этот код в то место страницы, где вы хотите разместить виджет:  
+<div id="RTWidgetTrackRequests"></div>-->
+<!-- Установите этот код сразу после div'а виджета из шага 1 либо ближе к концу страницы перед закрывающим тэгом <body>: 
 <script>
 if (typeof jQuery == 'undefined') { 
   var i = "i";
@@ -98,16 +98,16 @@ if (typeof jQuery == 'undefined') {
 <script type="text/javascript">
 jQuery(document).ready(function(){new TrackRequestsWidget({}, 1, 0, 0, "http://adminnfm.s02.radio-tochka.com:8080", "#RTWidgetTrackRequests", "ru");});
 </script>
-<script type="text/javascript" src="//vk.com/js/api/openapi.js?146"></script>
+<script type="text/javascript" src="//vk.com/js/api/openapi.js?146"></script> -->
 
-<!— VK Widget —>
+<!—- VK Widget 
 <div id="vk_community_messages"></div>
 <script type="text/javascript">
 VK.Widgets.CommunityMessages("vk_community_messages", 147909836, {expanded: "1",tooltipButtonText: "Есть вопрос?"});
-</script>
+</script> -—>
 <!-- Ссылка на поток: http://s02.radio-tochka.com:5150/radio -->
 <!-- https://chilloutfm.ru/ -->
 </div>
-</div>
+</div>-->
 </body>
 </html>
