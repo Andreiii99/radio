@@ -1,0 +1,109 @@
+/*!
+ * jQuery UI Slider 1.9.2
+ * http://jqueryui.com
+ *
+ * Copyright 2012 jQuery Foundation and other contributors
+ * Released under the MIT license.
+ * http://jquery.org/license
+ *
+ * http://docs.jquery.com/UI/Slider#theming
+ */
+.ui-slider { position: relative; text-align: left; }
+.ui-slider .ui-slider-handle {
+	position: absolute;
+	z-index: 2;
+	width: 8px;
+	height: 20px;
+	cursor: default;
+	behavior: url(js/border-radius.htc);
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	background: #d0d3d2 url("gradient_style-1-bg.png") repeat-x top;
+	-o-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+	*background: #d0d3d2;
+	background: #d0d3d2\0/;
+	filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr=#fffcfefe, endColorstr=#ffd0d3d2);
+	background-image: -webkit-gradient(
+		linear,
+		left top, left bottom,
+		from(rgba(252,254,254,1)),
+		to(rgba(208,211,210,1))
+	);
+	background-image: -webkit-linear-gradient(
+		top,
+		rgba(252,254,254,1),
+		rgba(208,211,210,1)
+	);
+	background-image: -moz-linear-gradient(
+		top,
+		rgba(252,254,254,1),
+		rgba(208,211,210,1)
+	);
+	background-image: -o-linear-gradient(
+		top,
+		rgba(252,254,254,1),
+		rgba(208,211,210,1)
+	);
+	background-image: linear-gradient(
+		top,
+		rgba(252,254,254,1),
+		rgba(208,211,210,1)
+	);
+}
+.ui-slider .ui-slider-range { position: absolute; z-index: 1; font-size: .7em; display: block; border: 0; background-position: 0 0; }
+
+.ui-slider-horizontal { height: .8em; }
+.ui-slider-horizontal .ui-slider-handle { top: -.3em; margin-left: -.3em; outline:none; }
+.ui-slider-horizontal .ui-slider-range { top: 0; height: 100%; }
+
+.ui-slider-horizontal .ui-slider-range-min {
+	left: 0;
+	border-radius: 3px 0px 0px 3px;
+	behavior: url(js/border-radius.htc);
+	background: #609bd2 url("gradient_style-1-bg.png") repeat-x top;
+	-o-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+	*background: #609bd2;
+	background: #609bd2\0/;
+	filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr=#ff2e4998, endColorstr=#ff609bd2);
+	background-image: -webkit-gradient(
+		linear,
+		left top, left bottom,
+		from(rgba(46,73,152,1)),
+		to(rgba(96,155,210,1))
+	);
+	background-image: -webkit-linear-gradient(
+		top,
+		rgba(46,73,152,1),
+		rgba(96,155,210,1)
+	);
+	background-image: -moz-linear-gradient(
+		top,
+		rgba(46,73,152,1),
+		rgba(96,155,210,1)
+	);
+	background-image: -o-linear-gradient(
+		top,
+		rgba(46,73,152,1),
+		rgba(96,155,210,1)
+	);
+	background-image: linear-gradient(
+		top,
+		rgba(46,73,152,1),
+		rgba(96,155,210,1)
+	);
+}
+
+.ui-slider-horizontal .ui-slider-range-max { right: 0; }
+
+.ui-slider-vertical { width: .8em; height: 100px; }
+.ui-slider-vertical .ui-slider-handle { left: -.3em; margin-left: 0; margin-bottom: -.6em; }
+.ui-slider-vertical .ui-slider-range { left: 0; width: 100%; }
+.ui-slider-vertical .ui-slider-range-min { bottom: 0; }
+.ui-slider-vertical .ui-slider-range-max { top: 0; }
