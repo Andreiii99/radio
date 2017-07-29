@@ -33,21 +33,6 @@ margin:0px;
 .rtplwrapperForIe-mini{
 width:500px;
 }
-/* -------------- */
-#block1 {
-float: left;
-display: block;
-width: 300px;
-border: 1px solid blue;
-margin: 2px;
-}
-#block2 {
-float: left;
-display: block;
-width: 300px;
-border: 1px solid blue;
-margin: 2px;
-}
 </style>
 </head>
 <body>
@@ -69,28 +54,16 @@ margin: 2px;
 <!-- Отзвучавшие треки -->
 <!-- Добавьте этот код в то место страницы, где вы хотите разместить виджет:  -->
 <div id="RTWidgetStatus"></div>
-<!-- Установите этот код сразу после div'а виджета из шага 1 либо ближе к концу страницы перед закрывающим тэгом <body>: -->
-<script>
-if (typeof jQuery == 'undefined') { 
-  var i = "i";
-  document.write('<script type="text/javascript" src="jquery-2.2.4.min.js"></scr' + i + 'pt>');
-}
-</script>
-<script type="text/javascript" src="jquery.tmpl.min.js"></script>
-<script type="text/javascript" src="status-widget.js"></script>
-<script type="text/javascript">
-jQuery(document).ready(function(){new StatusWidget({"djImage":true,"djName":true,"listenersNum":false,"trackCurrent":true,"history":true,"widgetWidth":350}, 1, "http://adminnfm.s02.radio-tochka.com:8080", "#RTWidgetStatus", "ru");});
-</script>
-</div>
+
 <div class="right_block">
 <!-- Заказ треков -->
-<!-- Добавьте этот код в то место страницы, где вы хотите разместить виджет:  
-<div id="RTWidgetTrackRequests"></div>-->
+<!-- Добавьте этот код в то место страницы, где вы хотите разместить виджет: --> 
+<div id="RTWidgetTrackRequests"></div>
 <!-- Установите этот код сразу после div'а виджета из шага 1 либо ближе к концу страницы перед закрывающим тэгом <body>:--> 
 <script>
 if (typeof jQuery == 'undefined') { 
   var i = "i";
-  document.write('<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></scr' + i + 'pt>');
+  document.write('<script type="text/javascript" src="jquery-2.2.4.min.js"></scr' + i + 'pt>');
 }
 </script>
 <script type="text/javascript" src="jquery.tmpl.min.js"></script>
@@ -109,5 +82,18 @@ jQuery(document).ready(function(){new TrackRequestsWidget({}, 1, 0, 0, "http://a
 <!-- https://chilloutfm.ru/ -->
 </div>
 </div>-->
+  <!-- Установите этот код сразу после div'а виджета из шага 1 либо ближе к концу страницы перед закрывающим тэгом <body>: -->
+<script>
+if (typeof jQuery == 'undefined') { 
+  var i = "i";
+  document.write('<script type="text/javascript" src="jquery-2.2.4.min.js"></scr' + i + 'pt>');
+}
+</script>
+<script type="text/javascript" src="jquery.tmpl.min.js"></script>
+<script type="text/javascript" src="status-widget.js"></script>
+<script type="text/javascript">
+jQuery(document).ready(function(){new StatusWidget({"djImage":true,"djName":true,"listenersNum":false,"trackCurrent":true,"history":true,"widgetWidth":350}, 1, "http://adminnfm.s02.radio-tochka.com:8080", "#RTWidgetStatus", "ru");});
+</script>
+</div>
 </body>
 </html>
