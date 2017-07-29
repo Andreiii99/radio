@@ -1,0 +1,64 @@
+/*
+ *  Р­С‚РѕС‚ С„Р°Р№Р» РїРѕСЃС‚Р°РІР»СЏРµС‚СЃСЏ РІ СЃРѕСЃС‚Р°РІРµ HTML5 РїР»РµРµСЂР° Рё СЂР°Р·СЂР°Р±РѕС‚Р°РЅ РІ СЂР°РјРєР°С… РїРѕСЂС‚Р°Р»Р° Radio-Tochka.com
+ *  Copyright (C) 2013 Radio-Tochka.com <info@radio-tochka.com>
+ *  Р’СЃРµ РїСЂР°РІР° Р·Р°С‰РёС‰РµРЅС‹. РќРµ СѓРґР°Р»СЏР№С‚Рµ СЌС‚РѕС‚ РєРѕРїРёСЂР°Р№С‚.
+*/
+.gradient_style-10-mini {
+	/* Legacy browsers */
+	background: #d2d3d5 url("gradient_style-10-bg.png") repeat-x top;
+	-o-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+	/* Internet Explorer */
+	*background: #d2d3d5;
+	background: #d2d3d5\0/;
+	filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr=#FFe6e7e8, endColorstr=#FFd2d3d5);
+	/* Recent browsers */
+	background-image: -webkit-gradient(
+		linear,
+		left top, left bottom,
+		from(#e6e7e8),
+		to(#d2d3d5)
+	);
+	background-image: -webkit-linear-gradient(
+		top,
+		#e6e7e8,
+		#d2d3d5
+	);
+	background-image: -moz-linear-gradient(
+		top,
+		#e6e7e8,
+		#d2d3d5
+	);
+	background-image: -o-linear-gradient(
+		top,
+		#e6e7e8,
+		#d2d3d5
+	);
+	background-image: -ms-linear-gradient(
+		top,
+		#e6e7e8,
+		#d2d3d5
+	);
+	background-image: linear-gradient(
+		top,
+		#e6e7e8,
+		#d2d3d5
+	);
+}
+.button_play_stop_style-10-mini {
+	background-image: url(../../images/player/style_10.png);
+	background-repeat: no-repeat;
+	background-position: -69px 10px;
+}
+.button_max_vol_style-10-mini {
+	background-image: url(../../images/player/style_10.png);
+}
+.button_mute_style-10-mini {
+	background-image: url(../../images/player/style_10.png);
+}
+
+.gradient_style-10-mini .rtplcurrent_time-mini {
+    color: #64717f;
+}
