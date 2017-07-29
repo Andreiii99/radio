@@ -1,0 +1,276 @@
+#RTWidgetTrackRequests {
+    position: relative;
+ 
+    /*min-height: 1200px;*/
+}
+#TRWrapper{
+    font-family:Arial, Helvetica, sans-serif;
+    color:#666;
+    font-size:12px;
+    text-shadow: 1px 1px 0px #fff;
+    background:#eaebec;
+    margin:0 0 25px 0;
+    border:#ccc 1px solid;
+    position: relative;
+    
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+    border-radius:3px;
+    
+    -moz-box-shadow: 0 1px 2px #d1d1d1;
+    -webkit-box-shadow: 0 1px 2px #d1d1d1;
+    box-shadow: 0 1px 2px #d1d1d1;
+    border-collapse: separate;  
+}
+#TRWAlphabetFirstRow, #TRWAlphabetSecondRow{
+    font-weight: bold;
+    padding:5px 5px 5px 5px;
+    border-top:1px solid #fafafa;
+    border-bottom:1px solid #e0e0e0;
+    text-align: center;
+    background: #ededed;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ededed), to(#ebebeb));
+    background: -moz-linear-gradient(top,  #ededed,  #ebebeb);
+}
+
+#TRWAlphabetFirstRow a, #TRWAlphabetSecondRow a{
+    color:#666;
+    font-size:14px;
+    text-decoration: none;
+    margin-left: 5px;
+}
+#TRWAlphabetFirstRow a.clicked, #TRWAlphabetSecondRow a.clicked{
+    /*color: #BDBF91 !important;*/
+    color: #000 !important;
+    text-decoration: underline;
+
+    /*text-shadow: 0 1px 1px #2A2A2A !important;
+    -webkit-transition: all .3s ease !important;
+    -moz-transition: all .3s ease !important;
+    -o-transition: all .3s ease !important;
+    -ms-transition: all .3s ease !important;
+    transition: all .3s ease !important;*/
+}
+
+#TRWNothingfound, #TRWPaginator{
+    padding:15px 5px 15px 5px;
+    border-top:1px solid #fafafa;
+    border-bottom:1px solid #e0e0e0;
+    text-align: center;
+    font-weight: bold;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ededed), to(#ebebeb));
+    background: -moz-linear-gradient(top,  #ededed,  #ebebeb);
+}
+
+#TRWSearch{
+    padding:5px 5px 5px 5px;
+    border-top:1px solid #fafafa;
+    border-bottom:1px solid #e0e0e0;
+    text-align: center;
+    font-weight: bold;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ededed), to(#ebebeb));
+    background: -moz-linear-gradient(top,  #ededed,  #ebebeb);
+    
+}
+
+#TRWSearch input[type="text"],
+#TRWRequestName{
+    border: solid 1px #e0e0e0;
+    background-color: #fafafa;
+    height: 26px;
+    border-radius: 3px;
+    margin: 5px;
+    outline: 0;
+    display: inline !important;
+    padding: 3px;
+}
+
+#TRWRequestText{
+    border: solid 1px #e0e0e0;
+    background-color: #fafafa;
+    border-radius: 3px;
+    margin: 5px;
+    outline: 0;
+    display: inline !important;
+    padding: 3px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+#TRWSearch input[type="text"]:focus,
+#TRWRequestName:focus,
+#TRWRequestText:focus{
+    border: solid 1px #33677F;
+    background-color: #ffffff;
+    display: inline !important;;
+}
+
+#TRWRequestFormSend{
+    margin-right: 10px;
+}
+
+
+#TRWRequestName,
+#TRWRequestText{
+    width: 220px;
+    max-width: 220px;
+    min-width: 220px;
+}
+
+#TRWRequestForm p{
+    display: block;
+    width: 100%;
+}
+
+#TRWRequestForm p label{
+    display: inline-block;
+    width: 85px;    
+}
+
+#TRWMusic a, #TRWSearch a, #TRWRequestFormSend, #TRWRequestFormCancel{
+    font-weight: bold;
+    border-radius: 2px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    box-sizing: border-box;
+    border: 0;
+    background-color: #8d9ca3;
+    color:#fff;
+    font-size:12px;
+    padding: 5px 15px;
+    text-shadow: none;
+    text-decoration: none;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#TRWPaginator a{
+    font-weight: bold;
+    border-radius: 2px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    box-sizing: border-box;
+    border: 0;
+    background-color: #8d9ca3;
+    color:#fff;
+    font-size:12px;
+    padding: 2px 7px;
+    text-shadow: none;
+    text-decoration: none;
+    font-family:Arial, Helvetica, sans-serif;
+    display: inline-block;
+    margin: 2px;
+}
+
+#TRWPaginator span{
+    font-weight: bold;
+    border-radius: 2px;
+    text-align: center;
+    outline: none;
+    box-sizing: border-box;
+    border: 0;
+    /*background-color: #cccda9;*/
+    background-color: #bdbf91;
+    color:#fff;
+    font-size:12px;
+    padding: 2px 7px;
+    text-shadow: none;
+    text-decoration: none;
+    display: inline-block;
+    margin: 2px;
+}
+
+#TRWRequestModal{
+        font-family:Arial, Helvetica, sans-serif;
+        color:#666;
+        font-size:12px;
+        text-shadow: 1px 1px 0px #fff;
+        background:#eaebec;
+        margin:0 auto;
+        border:#ccc 1px solid;
+        /*position: fixed;*/
+	position: absolute;
+
+        border-radius: 3px;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+
+        box-shadow:  0 1px 2px #d1d1d1;;
+        -webkit-box-shadow: 0 1px 2px #d1d1d1;;
+        -moz-box-shadow: 0 1px 2px #d1d1d1;;
+
+        padding: 10px;
+        /*position: relative;*/
+        width: 320px;
+        z-index: 105;
+
+}
+
+#TRWRequestModal.active{
+    display: block;
+}
+
+#TRWRequestModal p{
+    text-align: left !important;
+    padding: 0px;
+    margin: 5px;
+}
+
+#TRWRequestModal strong{
+    text-align: center !important;
+    font-size:14px;
+
+}
+
+#RTWidgetTrackRequests table td {
+    font-family:Arial, Helvetica, sans-serif;
+    color:#666;
+    font-size:12px;
+    text-shadow: 1px 1px 0px #fff;
+    padding:5px;
+    font-weight: bold;
+    border-top: 1px solid #ffffff;
+    border-bottom:1px solid #e0e0e0;
+    border-left: 1px solid #e0e0e0;
+    background: #fafafa;
+    background: -webkit-gradient(linear, left top, left bottom, from(#fbfbfb), to(#fafafa));
+    background: -moz-linear-gradient(top,  #fbfbfb,  #fafafa);
+    text-align: left;
+
+}
+
+#RTWidgetTrackRequests  table tr td:last-child {
+    font-size:20px;
+    border-left: 0px;
+}
+
+#RTWidgetTrackRequests table tr.even td {
+    background: #f6f6f6;
+    background: -webkit-gradient(linear, left top, left bottom, from(#f8f8f8), to(#f6f6f6));
+    background: -moz-linear-gradient(top,  #f8f8f8,  #f6f6f6);
+}
+
+#RTWidgetTrackRequests  table tr:hover td {
+    background: #f2f2f2;
+    background: -webkit-gradient(linear, left top, left bottom, from(#f2f2f2), to(#f0f0f0));
+    background: -moz-linear-gradient(top,  #f2f2f2,  #f0f0f0);	
+}
+
+#TRWmessageSuccess{
+    padding: 8px 35px 8px 14px;
+    border: 0px solid;
+    background-color: #dff0d8;
+    color: #468847;
+    font-weight: bold;
+    text-align: center !important;
+}
+
+#TRWmessageError{
+    padding: 8px 35px 8px 14px;
+    border: 0px solid;
+    background-color: #f2dede;
+    color: #b94a48;
+    font-weight: bold;
+    text-align: center !important;
+}
