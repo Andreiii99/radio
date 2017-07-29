@@ -1,1 +1,113 @@
-hhh
+<html>
+<head>
+<link href="base.css" rel="stylesheet" type="text/css" />
+<link href="http://adminnfm.s02.radio-tochka.com:8080/media/static/css/player/style-10-mini.css" rel="stylesheet" type="text/css" />
+<link href="http://adminnfm.s02.radio-tochka.com:8080/media/static/css/ui/jquery.ui.slider.css" rel="stylesheet" type="text/css" />
+<script>
+if (typeof jQuery == 'undefined') { 
+  var i = "i";
+  document.write('<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></scr' + i + 'pt>');
+}
+</script>
+<script type="text/javascript" src="http://adminnfm.s02.radio-tochka.com:8080/media/static/js/jplayer/jquery.jplayer.min.js"></script>
+<script type="text/javascript" src="http://adminnfm.s02.radio-tochka.com:8080/media/static/js/jplayer/jquery-ui-1.10.2.custom.min.js"></script>
+<script type="text/javascript" src="http://adminnfm.s02.radio-tochka.com:8080/media/static/js/jplayer/modernizr.js"></script>
+<script type="text/javascript" src="http://adminnfm.s02.radio-tochka.com:8080/media/static/js/jplayer/rt_pl.js"></script>
+<link href="http://adminnfm.s02.radio-tochka.com:8080/media/static/css/widget-status.css" rel="stylesheet">
+<link href="http://adminnfm.s02.radio-tochka.com:8080/media/static/css/widget-trackrequests.css" rel="stylesheet">
+<style>
+div.wrapper {
+width:100%;
+}
+div.left_block {
+float:left;
+width:27%;
+margin:auto;
+display: block;
+}
+div.right_block {
+float:right;
+width:73%;
+margin:0px;
+}
+.rtplwrapperForIe-mini{
+width:500px;
+}
+/* -------------- */
+#block1 {
+float: left;
+display: block;
+width: 300px;
+border: 1px solid blue;
+margin: 2px;
+}
+#block2 {
+float: left;
+display: block;
+width: 300px;
+border: 1px solid blue;
+margin: 2px;
+}
+</style>
+</head>
+<body>
+<div class="wrapper">
+<div class="left_block">
+<!-- Плеер HTML5  -->
+<div id="rtJpID-1"></div>
+<div class="rtplwrapperForIe-mini">
+<div id="rtplayer-1" class="rtplmain_window-mini gradient_style-10-mini">
+<a id="button_play_stop-1" class="rtplbutton_play_stop-mini button_play_stop_style-10-mini" href="#"></a>
+<div id="current_time-1" class="rtplcurrent_time-mini">00:00:00</div>
+<a id="rtplmute-1" class="rtplmute-mini button_mute_style-10-mini" href="#"></a>
+<div id="rtplvolume-1" class="rtplvolume-mini"></div>
+<a id="rtplmaxvol-1" class="rtplmaxvol-mini button_max_vol_style-10-mini" href="#"></a>
+</div>
+</div>
+<script>$(document).ready( function(){ new RTPlayer( 1, 50, true, "http://adminnfm.s02.radio-tochka.com:8080",  "mp3", {"mp3": "http://s02.radio-tochka.com:5150/radio"}, "ru")  });</script>
+<br />
+<!-- Отзвучавшие треки -->
+<!-- Добавьте этот код в то место страницы, где вы хотите разместить виджет:  -->
+<div id="RTWidgetStatus"></div>
+<!-- Установите этот код сразу после div'а виджета из шага 1 либо ближе к концу страницы перед закрывающим тэгом <body>:  -->
+<script>
+if (typeof jQuery == 'undefined') { 
+  var i = "i";
+  document.write('<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></scr' + i + 'pt>');
+}
+</script>
+<script type="text/javascript" src="https://yandex.st/jquery/tmpl/1.0.0pre/jquery.tmpl.min.js"></script>
+<script type="text/javascript" src="http://adminnfm.s02.radio-tochka.com:8080/media/static/js/external/status-widget.js"></script>
+<script type="text/javascript">
+jQuery(document).ready(function(){new StatusWidget({"djImage":true,"djName":true,"listenersNum":false,"trackCurrent":true,"history":true,"widgetWidth":350}, 1, "http://adminnfm.s02.radio-tochka.com:8080", "#RTWidgetStatus", "ru");});
+</script>
+</div>
+<div class="right_block">
+<!-- Заказ треков -->
+<!-- Добавьте этот код в то место страницы, где вы хотите разместить виджет:  -->
+<div id="RTWidgetTrackRequests"></div>
+<!-- Установите этот код сразу после div'а виджета из шага 1 либо ближе к концу страницы перед закрывающим тэгом <body>:  -->
+<script>
+if (typeof jQuery == 'undefined') { 
+  var i = "i";
+  document.write('<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></scr' + i + 'pt>');
+}
+</script>
+<script type="text/javascript" src="https://yandex.st/jquery/tmpl/1.0.0pre/jquery.tmpl.min.js"></script>
+<script type="text/javascript" src="http://adminnfm.s02.radio-tochka.com:8080/media/static/js/external/trackrequests-widget.js"></script>
+<script type="text/javascript">
+jQuery(document).ready(function(){new TrackRequestsWidget({}, 1, 0, 0, "http://adminnfm.s02.radio-tochka.com:8080", "#RTWidgetTrackRequests", "ru");});
+</script>
+<script type="text/javascript" src="//vk.com/js/api/openapi.js?146"></script>
+
+<!— VK Widget —>
+<div id="vk_community_messages"></div>
+<script type="text/javascript">
+VK.Widgets.CommunityMessages("vk_community_messages", 147909836, {expanded: "1",tooltipButtonText: "Есть вопрос?"});
+</script>
+<!-- Ссылка на поток: http://s02.radio-tochka.com:5150/radio -->
+<!-- https://chilloutfm.ru/ -->
+</div>
+</div>
+</body>
+</html>
